@@ -47,7 +47,7 @@ if __name__ == '__main__':
     plain_config = extract_config(file_name)
 
     if plain_config is None:
-        print('Configuration could not be extracted. Is this Sodinokibi?')
+        print('Configuration could not be extracted. Is this REvil a.k.a Sodinokibi?')
     else:
         print('Extracting configuration')
 
